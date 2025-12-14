@@ -26,7 +26,7 @@ const HeroVisual = () => (
     {/* Left half - Cinematic */}
     <div className="absolute inset-y-0 left-0 w-1/2 bg-slate-900 overflow-hidden">
       <img 
-        src="public/elsa-original.png"
+        src="elsa-original.png"
         alt="Original Disney Creation" 
         className="object-cover w-full h-full opacity-90 transition-transform duration-700 group-hover:scale-105" 
       />
@@ -39,7 +39,7 @@ const HeroVisual = () => (
     {/* Right half - AI Generated Glitch */}
     <div className="absolute inset-y-0 right-0 w-1/2 bg-denim overflow-hidden">
       <img 
-        src="public/elsa-ai-23.png"
+        src="elsa-ai-23.png"
         alt="AI Generated Art" 
         className="object-cover w-full h-full opacity-90 mix-blend-normal hue-rotate-15 transition-transform duration-700 group-hover:scale-110" 
       />
